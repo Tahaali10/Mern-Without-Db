@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+a{
+text-decoration: none;
+color: blueviolet;
+}
+/* .main-product{
+  margin-top: 10px;
+} */
+.paper {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 43px; */
+  margin: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper-img {
+  /* border: 0.1px solid black; */
+  border-radius: 5px;
+}
+
+.paper-product,
+.paper-product-desc,
+.paper-price-heading
+.paper-product-color {
+  font-size: 17px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.paper-price {
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.product-detail {
+  margin-top: 100px;
+}
+
+.product-detail-name,
+.product-detail-desc,
+.product-detail-price,
+.product-detail-size,.product-detail-color {
+
+  font-size: 16px;
+  margin-left: -400px;
+}
